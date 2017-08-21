@@ -3,7 +3,7 @@ const webpack = require('webpack')
 const htmlWebpackPlugin = require('html-webpack-plugin')
 
 const config = {
-  entry: './src/index.js',
+  entry: './src/sketch.js',
   output: {
     filename: '[chunkhash].bundle.js',
     path: commonPaths.outputPath
